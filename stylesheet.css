@@ -1,0 +1,71 @@
+body{
+  background-color:#575158;
+  color: white;
+  font: 16px Georgia, Serif;
+
+  line-height:1.4em;
+}
+
+  a:hover {
+  background-color: black;
+  color: white;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size:20px
+}
+
+.container{
+width:85%;
+margin:auto;
+overflow:hidden;
+background-color:#2b2a2b;
+
+}
+.navbar{
+  width:85%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.writtenstuff{
+  width:85%;
+  margin:auto;
+  overflow:hidden;
+  background-color: #3e3b3e
+}
+
+#writery{
+  padding: 10px;
+}
+
+#navigationbar{
+  background-color:#333133;
+  color:white;
+  height:50px
+
+}
+
+#navigationbar ul{
+padding:10px;
+list-style: none;
+padding-top:15px
+
+}
+
+#navigationbar li{
+display:inline;
+
+}
+
+#navigationbar a{
+
+color: white;
+text-decoration: none;
+font-size:20px;
+padding-right:30px;
+
+}
