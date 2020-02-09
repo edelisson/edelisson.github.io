@@ -21,6 +21,11 @@ td, th {
 
 tr:nth-child(even) {
   background-color: black;
+
+}
+hr.line1 {
+  border: 15px solid #575158;
+  border-radius: 10px;
 }
 </style>
 
@@ -47,6 +52,113 @@ tr:nth-child(even) {
   <div class="writtenstuff">
     <nav id="writery">
   <section>
+
+<a name="20200209">2020-02-09: Migrating from proprietary software to FOSS</a><p>
+
+I should preface this by mentioning that I have not done any sort of programming or coding myself, save for some visual basic (if I recall correctly)<br>
+in upper secondary school nearly 15 years ago. I think we got to make a calculator. That's about the extent of it. Just so that's out there.<p>
+
+<strong>Terminology:</strong><br>
+FOSS - <strong>F</strong>ree <strong>O</strong>pen <strong>S</strong>ource <strong>S</strong>oftware.<br>
+E2EE - <strong>E</strong>nd <strong>2</strong>(to) <strong>E</strong>nd <strong>E</strong>ncryption<br>
+RAAPA - <strong>R</strong>ogue <strong>A</strong>rchivist; <strong>A</strong>spiring <strong>P</strong>rofessional <strong>A</strong>rchivist
+<p>
+
+The benefits and drawbacks of FOSS is a discussion for another time; there is an amalgam of online lists and discussions that I don't want to get into.<br>
+In this blog post I will lay out some alternatives that are FOSS together with some links to their respective donation pages if available, with some<br>
+information on how I myself moved from proprietary software to FOSS. Another important thing to note is that there isn't always a mirroring of proprietary<br>
+to FOSS: many of the programs listed below aren't per se <em>alternatives</em> to anything; they just are what they are - great utilities.<p>
+
+There is quite a lot to go over, so I'll just get into it straight away.<p>
+
+One of the most radical changes came with my purchase of a laptop. Instead of using the preinstalled windows 10 (a shitty standard), I used a USB drive to make a flash drive<br>
+with a different operative system using Etcher:<p>
+
+<img src="etcherpicture.png"><br>
+<a href="https://www.balena.io/etcher/">Balena.io/etcher</a><p>
+
+This process was fairly straight forward and only took a few minutes. The OS that I finally decided on, after some correspondence with more technically experienced and savvy people<br>
+than myself, is <a href="https://linuxmint.com/">Linux Mint</a> 19.3 64-bit Cinnamon edition. The benefits of this is that, as I understand it (and the way I'm experiencing it) is that it is very linux beginner friendly.<br>
+There are, of course, numerous Linux distros, but thus far I have been more than satisfied with Linux Mint, and I would recommend it to anyone taking their first step from Windows to Linux.<p>
+
+<img src="linuxmintlogo.svg"><br>
+<a href="https://linuxmint.com/donors.php">Linuxmint.com/donors</a><p>
+
+There are valid concerns about gaming on Linux machines; my understanding of it is that it has in recent years become much better, with programs like Wine and databases like ProtonDB.<br>
+An alternative that I am still working on and intending to do on my desktop is what's called "Dual Boot" - one machine, two operative systems. That would allow you to try out gaming on<br>
+Linux and see how it plays out before you make the eventual decision to get rid of Windows altogether. This subreddit has invaluable information: <a href="https://www.reddit.com/r/linux_gaming/wiki/index">R/Linuxgaming/wiki</A>.<p>
+
+As far as communication goes, since whatsapp was purchased by Facebook, I decided to get rid of it. I also, most recently, deleted my facebook account and along with it, Messenger.<br>
+For people concerned with their basic human rights (as privacy is) the better messaging service is <a href="signal.org">Signal</a>. It is cross-platform and messages are end-to-end encrypted, meaning that<br>
+consequentially, regardless of if the content is being monitored, it can not be read by anyone without access to the actual devices on which the messages are being sent to or received from.<br>
+They would just see randomly, scrambled nonsensical letters and numbers. This makes targeted advertising through apps/software as such impossible. There are, interestingly,<br>
+<a href="https://arstechnica.com/tech-policy/2016/10/fbi-demands-signal-user-data-but-theres-not-much-to-hand-over/">cases where FBI has demanded user data from signal users</a> but haven't been able to get much out of it.<p>
+
+<img src="signalpicture.png" alt="signallogo" width="200" height="200"><br>
+<a href="https://signal.org/donate/">Signal.org/donate</a><p>
+
+Similar to how Signal is a messaging app that is E2EE, my current E-mail service is also E2EE. I chose to go with <a href="https://protonmail.com/">Protonmail</a>. They have a lot of valuable<br>
+information on their website, and it is something that a lot of privacy oriented people will generally refer you to.<p>
+
+<img src="protonmailpicture.png" alt="protonmailpicture" width="200" height="200"><br>
+<a href="https://protonmail.com/donate">Protonmail.com/donate</a><p>
+
+Now; being a rogue archivist; aspiring professional archivist, (or a RAAPA as I've just now dubbed it), I require some accessibility to platforms owned by corporations I fundamentally<br>
+disagree with. Instagram is owned by facebook; Youtube is owned by google. Instagram has recently been requiring you to log in through an account to view images (although this doesn't always <br>
+happen for some reason) and I've yet to delete my instagram account, though I no longer use it. Because I digitally archive a lot of Weightlifting stuff, <br>
+I still have to use both Instagram and Youtube, to snatch (no pun intended) as much of it as possible. Luckily, there are plenty of alternative websites that link to instagram pictures (such as saveig.com or imgtagram). For YouTube, I strongly recommend <a href="https://freetubeapp.io/">FreeTube</a>.<p>
+
+<img src="freetubepicture.svg" alt="freetubepicture" width="500" height="250"><br>
+<a href="https://liberapay.com/FreeTube">Liberapay.com/freetube</A><p>
+
+Oh, and for what it's worth, to download videos from youtube I use <a href="https://youtube-dl.org/">Youtube-DL</a> without a GUI and through the Linux terminal. While it is called<br>
+"youtube-dl" it actually works on <a href="https://ytdl-org.github.io/youtube-dl/supportedsites.html"><em>about a thousand</em></a> websites; it is indeed quite marvelous.<p>
+
+Proper privacy oriented practice should also include some kind of VPN (Virtual Private Network). Here I would refer you to <a href="https://www.privacytools.io/providers/vpn/">Privacytools.io/providers/vpn/</a><br>
+My choice is and has always been <a href="https://mullvad.net">Mullvad</a>, and I can recommend them (as does Privacytools.io) but don't take our word for it; do your own research.<p>
+
+<img src="mullvadpicture.png" alt="mullvadpicture"><p>
+
+A few media oriented FOSS:s I use: I like to make music and recently I've been learning how to use what is known as <a href="http://lmms.io/">Linux MultiMedia Station</A>, or LMMS.<br>
+It is a digital audio workstation quite similar to FL studio or Cubase. I am still working my way around it, but I'm including it to shed some light to it as it is quite good.<p>
+
+<img src="lmmspicture.png" alt="lmmspicture" width="300" height="300"><br>
+<a href="http://lmms.io/get-involved">LMMS.io/get-involved</a><p>
+
+One of the things, that is also one of the more radical for me, was to stop using Spotify. I strongly disagree with their privacy policy, that you can read more about <a href="https://www.theguardian.com/technology/2015/aug/21/spotify-faces-user-backlash-over-new-privacy-policy">here</a>.<br>
+There are other ways to get your hand on music (legal or not so legal), but I will say that the music player/library that I now use on desktop is <a href="https://audacious-media-player.org/">Audacious</A><br>
+On my smartphone I use <a href="https://krosbits.in/musicolet/">Musicolet</A> and for podcasts I simply download them from podcast hosting websites and play them through musicolet.<br>
+For playing videos, I use (and likely you as well) <a href="https://www.videolan.org/vlc/">VLC Media Player</a> or Celluloid (came with Linux Mint).
+<p>
+
+But smartphones are a different monster. You could look into the <a href="https://puri.sm/products/librem-5/">Librem 5</A> model that looks very promising regarding privacy, or if your phone supports it,<br>
+the <a href="https://lineageos.org/">Lineage Operating System</a>. My phone sadly doesn't support it, but rest assure my next phone will.<p>
+
+<p>
+<strong> Some additional tools that are grateful for optimized privacy:</strong><p>
+
+It is unfortunate that languages are now adapting the verb "google". I would suggest using the terminology "internet search" instead, to take away from an effective cultural monopoly that<br>
+google has on search engines. I personally use either <a href="https://duckduckgo.com">DuckDuckGo</a> or <a href="https://www.startpage.com">Startpage</a>. The web browsers that I use are either <a href="https://www.torproject.org/">TOR</a><br>
+or a buffed up <a href="https://www.mozilla.org">Firefox</a>. Buffed up how exactly? By a number of very handy, privacy oriented plugins:
+<ul>
+  <li><a href="https://ublock.org">uBlock</a> - Primarily blocks ads but can be optimized to do more</li>
+  <li><a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">Disable WebRTC</a> - Used in conjunction with your VPN</li>
+  <li><a href="https://www.eff.org/privacybadger">Privacy Badger</a> - Blocks trackers</li></ul><p>
+
+To name a few. <p>
+
+That pretty much covers most of it. Reaching a nirvana-like stallman-esque level of privacy shouldn't be a dichotomy of do or don't commit to privacy oriented<br>
+practices. Each and every one has to make the choice of how far they are willing to comfortably go, and how long time it will take for them.<br>
+<strong>I</strong> am at a place where I am more comfortable <strong>without</strong> certain social media memberships than I am <strong>with</strong> them.<br>
+There is quite a bit of gatekeeping going on within the privacy movement, but it is in my view, important to strike out a balance here:<br>
+We ought to be conscientious about peoples needs, understanding, willingness and experience level when recommending what privacy measures to take, <strong>without</strong><br>
+excusing or not shedding light on corporations or nation states privacy invasions. These things can take time, and for all intents and purposes should take time.<p>
+
+Elisson out.
+
+<p>
+  <hr class="line1">
+
 <a name="20200207">2020-02-07: The academy awards and 2019 in film</a><p>
 
 One of my chief interest for a number of years has been film, so much so that I am seriously considering writing my bachelor in archival science<br>
@@ -105,7 +217,7 @@ So, yeah. Not including a wide number of categories that are just less interesti
 seen enough titles in them to make a valid call. I will say that the SNUB OF THE YEAR award goes to the academy awards for not fucking nominating The Farewell for<br>
 <em>anything</em>, as well as not nominating Willem Dafoe for The Lighthouse. All this said, my personal top 10 list of 2019 goes like this:<p>
 
-  1. The Joker<br>
+  1. Joker<br>
   2. The Lighthouse <br>
   3. The Irishman<br>
   4. The Farewell<br>
@@ -116,7 +228,7 @@ seen enough titles in them to make a valid call. I will say that the SNUB OF THE
   9. Paddleton<br>
   10. The Gangster, the Cop, the Devil<p>
 
-    Elisson out.
+  Elisson out.
 
   </body>
 </html>
